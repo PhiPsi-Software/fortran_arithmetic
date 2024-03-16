@@ -1,0 +1,164 @@
+{
+  "Root":{
+    "Folders":[],
+    "Name":"+fortran_arithmetic (fortran_arithmetic.exe)",
+    "Files":[{
+        "filename":".\\src\\Initialize.f90",
+        "enabled":"1",
+        "panel":1,
+        "open":"1"
+      },{
+        "filename":".\\src\\Module_Global.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\PhiPsi_Read_Input.F90",
+        "enabled":"1",
+        "panel":1,
+        "open":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_cap.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_cap_chrpak.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_eqi_chrpak.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_index_first.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_index_first_for_minus_sign.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_index_first_for_plus_sign.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_index_last.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_is_digit.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_low.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_ch_to_digit_chrpak.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_r4_to_s_left.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_blank_delete.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_digits_count.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_eqi.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_indexi.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_is_i.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_is_r.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_low.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_replace_i.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_to_i4.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_chrpak_s_to_r4.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_Get_num_Data_from_a_String.f",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_Get_num_Data_from_a_String_v2.f",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_String_arithmetic.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_String_count_char_occurrences.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_String_extract_content_in_parentheses.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Tool_String_to_Upper.f90",
+        "enabled":"1"
+      },{
+        "filename":".\\src\\Warning_Message.F90",
+        "enabled":"1",
+        "panel":1,
+        "open":"1"
+      }]
+  },
+  "Name":"fortran_arithmetic (fortran_arithmetic.exe)",
+  "Options":{
+    "Compiler Options":{
+      "Fortran Flags":"",
+      "Link Flags":"",
+      "C Flags":""
+    },
+    "Architecture":1,
+    "Type":0,
+    "Revision":2,
+    "Windows GUI":0,
+    "File Options":{
+      "Library Directories":["Default Add-On Directory"],
+      "Build Directory":"build",
+      "Module Directory":"modules",
+      "Include Directories":["Default Add-On Include Directory"]
+    },
+    "Target":"fortran_arithmetic.exe",
+    "Fortran Options":{
+      "Floating Point Exception Trap":0,
+      "Initialize Variables to Zero":"false",
+      "Use C Preprocessor":"false",
+      "Runtime Diagnostics":"true",
+      "Cray Pointers":"false",
+      "Disable Floating Point Exception Warnings":0,
+      "Enable OpenMP":"false",
+      "Enable Coarrays":"false",
+      "Default Double for Real":"false"
+    },
+    "Code Generation Options":{
+      "CPU Specific":"false",
+      "Processor":"generic",
+      "Aggressive Loops":"false",
+      "Debugging":"true",
+      "Optimization Mode":0,
+      "Profiling":"false",
+      "Link Time Optimization":"false"
+    },
+    "Build Dependencies":1,
+    "Launch Options":{
+      "Working Directory":"",
+      "Launch Using MPI":"false",
+      "Keep Console":"true",
+      "External Console":"false",
+      "Command Line Arguments":"",
+      "Build Before Launch":"true"
+    },
+    "Build Options":{
+      "Auto Management":"true",
+      "Makefile":"Makefile.fortran_arithmetic",
+      "Auto Makefile":"true"
+    },
+    "Linker Options":{
+      "Static Linking Mode":7,
+      "Link MPI Library":"false",
+      "Link LAPACK":0
+    }
+  }
+}
