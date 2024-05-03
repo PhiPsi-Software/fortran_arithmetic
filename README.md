@@ -1,4 +1,4 @@
-# Read keywords from an input file, identify parameter definition, perform addition (plus, +), subtraction (minus,-), multiplication (*), and division (/) calculations in FORTARN language.
+# Read keywords from an input file, identify parameter definition, perform addition (plus, +), subtraction (minus,-), multiplication (*), and division (/) calculations in FORTRAN language.
 + Author: Fang Shi
 + Website: http://phipsi.top
 + Email: shifang@hyit.edu.cn / shifang@ustc.edu.cn
