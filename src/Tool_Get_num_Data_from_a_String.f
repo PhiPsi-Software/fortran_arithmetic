@@ -40,7 +40,8 @@
       subroutine Tool_Get_num_Data_from_a_String(c_String,num_Char,
      &                                           num_Data,Yes_Even)
        
-      !由逗号隔开的字符串数据中数据的个数,"num_Data = 逗号数加1"
+      !由逗号隔开的字符串数据中数据的个数,"num_Data = 逗号数加1".
+      
       use Global_Float_Type
       IMPLICIT NONE
       integer,intent(in)::num_Char
@@ -58,7 +59,8 @@
       num_Data = num_Comma + 1
       
       Yes_Even = .False.
-      if(mod(num_Data,1)==0) Yes_Even = .True.
+      !if(mod(num_Data,1)==0) Yes_Even = .True.
+      if(mod(num_Data,2)==0) Yes_Even = .True.  !2024-05-03.
       
       RETURN
       end subroutine Tool_Get_num_Data_from_a_String
